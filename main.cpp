@@ -10,7 +10,8 @@ int main()
 
     std::cout << "Is (3,3) inside rect1? " << rect1.isInside(3, 3) << std::endl;
     std::cout << "Is (5,5) on the border of rect1? " << rect1.isInside(5, 5) << std::endl;
-    std::cout << "Is (5,5) inside rect1 without counting the border? " << rect1.isInside(5, 5, false) << std::endl;
 
     return 0;
 }
+
+// commit 1
